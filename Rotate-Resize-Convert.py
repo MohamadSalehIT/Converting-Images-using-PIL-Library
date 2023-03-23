@@ -6,6 +6,7 @@ from PIL import Image
 inputFolder  = 'images/'
 #this is the directory where the formatted images will be placed
 outputFolder = 'newImages'
+#NOTE : Both directories are in the same path
 
 for image in os.listdir(inputFolder):
   if image != ".DS_Store":
